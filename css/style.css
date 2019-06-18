@@ -1,0 +1,160 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  padding: 0;
+  margin: 0;
+  background-color: #fff;
+}
+
+/*Global*/
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+header ul {
+  margin: 0;
+  padding: 0;
+}
+
+/*Header*/
+header {
+  background: #135095;
+  color: #fff;
+  padding-top: 2px;
+  min-height: 70px;
+  border-bottom: #d24553 8px solid;
+}
+
+header a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 32px;
+}
+
+header li {
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+header #branding {
+  float: left;
+}
+
+header #branding h1 {
+  margin: 18px;
+  float: right;
+  font-size: 48px;
+}
+
+header nav {
+  float: right;
+  margin-top: 30px;
+}
+
+header .highlight,
+header .atual a {
+  color: #d24553;
+  font-weight: bold;
+}
+
+header a:hover {
+  color: #d24553;
+  font-weight: bold;
+}
+
+/*main*/
+#main {
+  min-height: 400px;
+  background: url("../img/background.png") no-repeat;
+  text-align: center;
+  color: #fff;
+}
+
+#main h1 {
+  margin-top: 130px;
+  font-size: 60px;
+}
+
+/*follow*/
+#follow {
+  color: #fff;
+  background: #135095;
+  text-align: center;
+  margin-top: -40px;
+}
+
+#follow h1 {
+  font-size: 34px;
+}
+
+/*social*/
+#social {
+  margin-top: 20px;
+  background: #fff;
+}
+
+#social .box {
+  float: left;
+  width: 29%;
+  padding: 10px;
+  text-align: center;
+  margin-left: 30px;
+}
+
+#social .box img {
+  height: 150px;
+  width: 150px;
+}
+
+#social .box p {
+  font-size: 25px;
+  text-align: center;
+  margin-top: 0px;
+  font-weight: bold;
+}
+
+/* main-text */
+article#main-text {
+  float: right;
+  margin-right: 270px;
+  width: 65%;
+  font-size: 20.7px;
+  text-align: center;
+  top: -60px;
+}
+
+/* contact */
+#contact {
+  font-size: 20.7px;
+  line-height: 0.7;
+  padding-bottom: 40px;
+  margin-top: 40px;
+  text-align: center;
+  margin-right: 120px;
+}
+
+#contact .phone-numbers {
+  float: left;
+  margin-left: 540px;
+}
+
+#contact .adress {
+  float: right;
+  margin-right: 310px;
+}
+/* footer */
+
+footer {
+  padding: 1px;
+  color: #fff;
+  background: #135095;
+  font-size: 20px;
+}
+
+footer p {
+  text-align: center;
+}
